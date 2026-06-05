@@ -15,6 +15,6 @@ project(
 
 set(SRC add.cpp dif.cpp mul.cpp div.cpp main.cpp)
 set(EXECUTABLE_OUTPUT_PATH ../output_use_set/t12/t2/)
-# set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_CXX_STANDARD 11)
+# set(CMAKE_CXX_STANDARD 98)
 add_executable(app ${SRC})
