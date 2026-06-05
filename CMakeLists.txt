@@ -14,6 +14,7 @@ project(
 # add_executable(main add.cpp dif.cpp mul.cpp div.cpp main.cpp)
 
 set(SRC add.cpp dif.cpp mul.cpp div.cpp main.cpp)
-set(EXECUTABLE_OUTPUT_PATH ./output/t12/t2/)
-set(CMAKE_CXX_STANDARD 11)
-add_executaeble(app ${SRC})
+set(EXECUTABLE_OUTPUT_PATH ../output_use_set/t12/t2/)
+# set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 98)
+add_executable(app ${SRC})
