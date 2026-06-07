@@ -95,7 +95,7 @@ app_EXTERNAL_OBJECTS =
 
 C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/main.cpp.obj
 C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/build.make
-C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: C:/Users/25747/Desktop/cmake_learn/lib2/libcalc_static.a
+C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: C:/Users/25747/Desktop/cmake_learn/lib1/libcalc_shared.dll.a
 C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/linkLibs.rsp
 C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/objects1.rsp
 C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/link.txt
