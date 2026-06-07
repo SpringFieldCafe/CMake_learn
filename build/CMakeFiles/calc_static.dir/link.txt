@@ -1,0 +1,2 @@
+C:\Strawberry\c\bin\ar.exe qc C:\Users\25747\Desktop\cmake_learn\output_Static\lib\libcalc_static.a CMakeFiles/calc_static.dir/src/add.cpp.obj CMakeFiles/calc_static.dir/src/dif.cpp.obj CMakeFiles/calc_static.dir/src/div.cpp.obj CMakeFiles/calc_static.dir/src/mul.cpp.obj
+C:\Strawberry\c\bin\ranlib.exe C:\Users\25747\Desktop\cmake_learn\output_Static\lib\libcalc_static.a

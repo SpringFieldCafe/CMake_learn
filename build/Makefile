@@ -116,24 +116,38 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named calc
+# Target rules for targets named calc_shared
 
 # Build rule for target.
-calc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calc
-.PHONY : calc
+calc_shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calc_shared
+.PHONY : calc_shared
 
 # fast build rule for target.
-calc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/build
-.PHONY : calc/fast
+calc_shared/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/build
+.PHONY : calc_shared/fast
+
+#=============================================================================
+# Target rules for targets named calc_static
+
+# Build rule for target.
+calc_static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calc_static
+.PHONY : calc_static
+
+# fast build rule for target.
+calc_static/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/build
+.PHONY : calc_static/fast
 
 src/add.obj: src/add.cpp.obj
 .PHONY : src/add.obj
 
 # target to build an object file
 src/add.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/add.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/add.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/add.cpp.obj
 .PHONY : src/add.cpp.obj
 
 src/add.i: src/add.cpp.i
@@ -141,7 +155,8 @@ src/add.i: src/add.cpp.i
 
 # target to preprocess a source file
 src/add.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/add.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/add.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/add.cpp.i
 .PHONY : src/add.cpp.i
 
 src/add.s: src/add.cpp.s
@@ -149,7 +164,8 @@ src/add.s: src/add.cpp.s
 
 # target to generate assembly for a file
 src/add.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/add.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/add.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/add.cpp.s
 .PHONY : src/add.cpp.s
 
 src/dif.obj: src/dif.cpp.obj
@@ -157,7 +173,8 @@ src/dif.obj: src/dif.cpp.obj
 
 # target to build an object file
 src/dif.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/dif.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/dif.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/dif.cpp.obj
 .PHONY : src/dif.cpp.obj
 
 src/dif.i: src/dif.cpp.i
@@ -165,7 +182,8 @@ src/dif.i: src/dif.cpp.i
 
 # target to preprocess a source file
 src/dif.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/dif.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/dif.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/dif.cpp.i
 .PHONY : src/dif.cpp.i
 
 src/dif.s: src/dif.cpp.s
@@ -173,7 +191,8 @@ src/dif.s: src/dif.cpp.s
 
 # target to generate assembly for a file
 src/dif.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/dif.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/dif.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/dif.cpp.s
 .PHONY : src/dif.cpp.s
 
 src/div.obj: src/div.cpp.obj
@@ -181,7 +200,8 @@ src/div.obj: src/div.cpp.obj
 
 # target to build an object file
 src/div.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/div.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/div.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/div.cpp.obj
 .PHONY : src/div.cpp.obj
 
 src/div.i: src/div.cpp.i
@@ -189,7 +209,8 @@ src/div.i: src/div.cpp.i
 
 # target to preprocess a source file
 src/div.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/div.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/div.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/div.cpp.i
 .PHONY : src/div.cpp.i
 
 src/div.s: src/div.cpp.s
@@ -197,7 +218,8 @@ src/div.s: src/div.cpp.s
 
 # target to generate assembly for a file
 src/div.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/div.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/div.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/div.cpp.s
 .PHONY : src/div.cpp.s
 
 src/mul.obj: src/mul.cpp.obj
@@ -205,7 +227,8 @@ src/mul.obj: src/mul.cpp.obj
 
 # target to build an object file
 src/mul.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/mul.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/mul.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/mul.cpp.obj
 .PHONY : src/mul.cpp.obj
 
 src/mul.i: src/mul.cpp.i
@@ -213,7 +236,8 @@ src/mul.i: src/mul.cpp.i
 
 # target to preprocess a source file
 src/mul.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/mul.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/mul.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/mul.cpp.i
 .PHONY : src/mul.cpp.i
 
 src/mul.s: src/mul.cpp.s
@@ -221,7 +245,8 @@ src/mul.s: src/mul.cpp.s
 
 # target to generate assembly for a file
 src/mul.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/src/mul.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/mul.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/mul.cpp.s
 .PHONY : src/mul.cpp.s
 
 # Help Target
@@ -232,7 +257,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... calc
+	@echo ... calc_shared
+	@echo ... calc_static
 	@echo ... src/add.obj
 	@echo ... src/add.i
 	@echo ... src/add.s
