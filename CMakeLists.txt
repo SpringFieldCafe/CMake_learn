@@ -18,9 +18,9 @@ file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 # set(CMAKE_CXX_STANDARD 11)
 add_executable(app ${SRC})
 target_include_directories(app PRIVATE ${PROJECT_SOURCE_DIR}/include)
-set(CMAKE_CXX_STANDARD 98)
+# set(CMAKE_CXX_STANDARD 98)
 # add_executable(app ${SRC})
-target_link_libraries(app PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/lib2/libcalc_static.a")
+target_link_libraries(app PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/lib1/libcalc_shared.dll.a")
 set_target_properties(app PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/output_normal/t9"
 )
