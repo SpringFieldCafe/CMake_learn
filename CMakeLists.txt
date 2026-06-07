@@ -14,22 +14,13 @@ project(
 # add_executable(main add.cpp dif.cpp mul.cpp div.cpp main.cpp)
 
 # aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC)
-set(EXECUTABLE_OUTPUT_PATH ../output_use_aux/t12/t2/)
-file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
+file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 # set(CMAKE_CXX_STANDARD 11)
-include_directories(${PROJECT_SOURCE_DIR}/include)
-# set(CMAKE_CXX_STANDARD 98)
+add_executable(app ${SRC})
+target_include_directories(app PRIVATE ${PROJECT_SOURCE_DIR}/include)
+set(CMAKE_CXX_STANDARD 98)
 # add_executable(app ${SRC})
-add_library(calc_shared SHARED ${SRC})
-add_library(calc_static STATIC ${SRC})
-set_target_properties(calc_shared PROPERTIES 
-    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Shared/lib
-    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Shared/lib
-    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Shared/lib
-)
-
-set_target_properties(calc_static PROPERTIES 
-    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Static/lib
-    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Static/lib
-    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Static/lib
+target_link_libraries(app PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/lib2/libcalc_static.a")
+set_target_properties(app PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/output_normal/t9"
 )

@@ -8,11 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/25747/Desktop/cmake_learn/src/add.cpp" "CMakeFiles/app.dir/src/add.cpp.obj" "gcc" "CMakeFiles/app.dir/src/add.cpp.obj.d"
-  "C:/Users/25747/Desktop/cmake_learn/src/dif.cpp" "CMakeFiles/app.dir/src/dif.cpp.obj" "gcc" "CMakeFiles/app.dir/src/dif.cpp.obj.d"
-  "C:/Users/25747/Desktop/cmake_learn/src/div.cpp" "CMakeFiles/app.dir/src/div.cpp.obj" "gcc" "CMakeFiles/app.dir/src/div.cpp.obj.d"
-  "C:/Users/25747/Desktop/cmake_learn/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.obj" "gcc" "CMakeFiles/app.dir/src/main.cpp.obj.d"
-  "C:/Users/25747/Desktop/cmake_learn/src/mul.cpp" "CMakeFiles/app.dir/src/mul.cpp.obj" "gcc" "CMakeFiles/app.dir/src/mul.cpp.obj.d"
+  "C:/Users/25747/Desktop/cmake_learn/main.cpp" "CMakeFiles/app.dir/main.cpp.obj" "gcc" "CMakeFiles/app.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

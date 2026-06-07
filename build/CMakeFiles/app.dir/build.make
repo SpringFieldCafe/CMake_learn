@@ -71,106 +71,39 @@ include CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/codegen:
 .PHONY : CMakeFiles/app.dir/codegen
 
-CMakeFiles/app.dir/src/add.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/add.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
-CMakeFiles/app.dir/src/add.cpp.obj: C:/Users/25747/Desktop/cmake_learn/src/add.cpp
-CMakeFiles/app.dir/src/add.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/src/add.cpp.obj"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/add.cpp.obj -MF CMakeFiles\app.dir\src\add.cpp.obj.d -o CMakeFiles\app.dir\src\add.cpp.obj -c C:\Users\25747\Desktop\cmake_learn\src\add.cpp
+CMakeFiles/app.dir/main.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/main.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
+CMakeFiles/app.dir/main.cpp.obj: C:/Users/25747/Desktop/cmake_learn/main.cpp
+CMakeFiles/app.dir/main.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/main.cpp.obj"
+	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.obj -MF CMakeFiles\app.dir\main.cpp.obj.d -o CMakeFiles\app.dir\main.cpp.obj -c C:\Users\25747\Desktop\cmake_learn\main.cpp
 
-CMakeFiles/app.dir/src/add.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/add.cpp.i"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\25747\Desktop\cmake_learn\src\add.cpp > CMakeFiles\app.dir\src\add.cpp.i
+CMakeFiles/app.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
+	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\25747\Desktop\cmake_learn\main.cpp > CMakeFiles\app.dir\main.cpp.i
 
-CMakeFiles/app.dir/src/add.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/add.cpp.s"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\25747\Desktop\cmake_learn\src\add.cpp -o CMakeFiles\app.dir\src\add.cpp.s
-
-CMakeFiles/app.dir/src/dif.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/dif.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
-CMakeFiles/app.dir/src/dif.cpp.obj: C:/Users/25747/Desktop/cmake_learn/src/dif.cpp
-CMakeFiles/app.dir/src/dif.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/dif.cpp.obj"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/dif.cpp.obj -MF CMakeFiles\app.dir\src\dif.cpp.obj.d -o CMakeFiles\app.dir\src\dif.cpp.obj -c C:\Users\25747\Desktop\cmake_learn\src\dif.cpp
-
-CMakeFiles/app.dir/src/dif.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/dif.cpp.i"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\25747\Desktop\cmake_learn\src\dif.cpp > CMakeFiles\app.dir\src\dif.cpp.i
-
-CMakeFiles/app.dir/src/dif.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/dif.cpp.s"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\25747\Desktop\cmake_learn\src\dif.cpp -o CMakeFiles\app.dir\src\dif.cpp.s
-
-CMakeFiles/app.dir/src/div.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/div.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
-CMakeFiles/app.dir/src/div.cpp.obj: C:/Users/25747/Desktop/cmake_learn/src/div.cpp
-CMakeFiles/app.dir/src/div.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/div.cpp.obj"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/div.cpp.obj -MF CMakeFiles\app.dir\src\div.cpp.obj.d -o CMakeFiles\app.dir\src\div.cpp.obj -c C:\Users\25747\Desktop\cmake_learn\src\div.cpp
-
-CMakeFiles/app.dir/src/div.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/div.cpp.i"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\25747\Desktop\cmake_learn\src\div.cpp > CMakeFiles\app.dir\src\div.cpp.i
-
-CMakeFiles/app.dir/src/div.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/div.cpp.s"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\25747\Desktop\cmake_learn\src\div.cpp -o CMakeFiles\app.dir\src\div.cpp.s
-
-CMakeFiles/app.dir/src/main.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/main.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
-CMakeFiles/app.dir/src/main.cpp.obj: C:/Users/25747/Desktop/cmake_learn/src/main.cpp
-CMakeFiles/app.dir/src/main.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.dir/src/main.cpp.obj"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/main.cpp.obj -MF CMakeFiles\app.dir\src\main.cpp.obj.d -o CMakeFiles\app.dir\src\main.cpp.obj -c C:\Users\25747\Desktop\cmake_learn\src\main.cpp
-
-CMakeFiles/app.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/main.cpp.i"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\25747\Desktop\cmake_learn\src\main.cpp > CMakeFiles\app.dir\src\main.cpp.i
-
-CMakeFiles/app.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\25747\Desktop\cmake_learn\src\main.cpp -o CMakeFiles\app.dir\src\main.cpp.s
-
-CMakeFiles/app.dir/src/mul.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/mul.cpp.obj: CMakeFiles/app.dir/includes_CXX.rsp
-CMakeFiles/app.dir/src/mul.cpp.obj: C:/Users/25747/Desktop/cmake_learn/src/mul.cpp
-CMakeFiles/app.dir/src/mul.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.dir/src/mul.cpp.obj"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/mul.cpp.obj -MF CMakeFiles\app.dir\src\mul.cpp.obj.d -o CMakeFiles\app.dir\src\mul.cpp.obj -c C:\Users\25747\Desktop\cmake_learn\src\mul.cpp
-
-CMakeFiles/app.dir/src/mul.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/mul.cpp.i"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\25747\Desktop\cmake_learn\src\mul.cpp > CMakeFiles\app.dir\src\mul.cpp.i
-
-CMakeFiles/app.dir/src/mul.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/mul.cpp.s"
-	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\25747\Desktop\cmake_learn\src\mul.cpp -o CMakeFiles\app.dir\src\mul.cpp.s
+CMakeFiles/app.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
+	C:\Strawberry\c\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\25747\Desktop\cmake_learn\main.cpp -o CMakeFiles\app.dir\main.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
-"CMakeFiles/app.dir/src/add.cpp.obj" \
-"CMakeFiles/app.dir/src/dif.cpp.obj" \
-"CMakeFiles/app.dir/src/div.cpp.obj" \
-"CMakeFiles/app.dir/src/main.cpp.obj" \
-"CMakeFiles/app.dir/src/mul.cpp.obj"
+"CMakeFiles/app.dir/main.cpp.obj"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/src/add.cpp.obj
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/src/dif.cpp.obj
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/src/div.cpp.obj
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/src/main.cpp.obj
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/src/mul.cpp.obj
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/build.make
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/linkLibs.rsp
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/objects1.rsp
-C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable C:\Users\25747\Desktop\cmake_learn\output_use_aux\t12\t2\app.exe"
+C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/main.cpp.obj
+C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/build.make
+C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: C:/Users/25747/Desktop/cmake_learn/lib2/libcalc_static.a
+C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/linkLibs.rsp
+C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/objects1.rsp
+C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe: CMakeFiles/app.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C:\Users\25747\Desktop\cmake_learn\output_normal\t9\app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/app.dir/build: C:/Users/25747/Desktop/cmake_learn/output_use_aux/t12/t2/app.exe
+CMakeFiles/app.dir/build: C:/Users/25747/Desktop/cmake_learn/output_normal/t9/app.exe
 .PHONY : CMakeFiles/app.dir/build
 
 CMakeFiles/app.dir/clean:

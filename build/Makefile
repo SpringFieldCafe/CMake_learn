@@ -116,138 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named calc_shared
+# Target rules for targets named app
 
 # Build rule for target.
-calc_shared: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calc_shared
-.PHONY : calc_shared
+app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app
+.PHONY : app
 
 # fast build rule for target.
-calc_shared/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/build
-.PHONY : calc_shared/fast
+app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
+.PHONY : app/fast
 
-#=============================================================================
-# Target rules for targets named calc_static
-
-# Build rule for target.
-calc_static: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calc_static
-.PHONY : calc_static
-
-# fast build rule for target.
-calc_static/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/build
-.PHONY : calc_static/fast
-
-src/add.obj: src/add.cpp.obj
-.PHONY : src/add.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-src/add.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/add.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/add.cpp.obj
-.PHONY : src/add.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-src/add.i: src/add.cpp.i
-.PHONY : src/add.i
-
-# target to preprocess a source file
-src/add.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/add.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/add.cpp.i
-.PHONY : src/add.cpp.i
-
-src/add.s: src/add.cpp.s
-.PHONY : src/add.s
-
-# target to generate assembly for a file
-src/add.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/add.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/add.cpp.s
-.PHONY : src/add.cpp.s
-
-src/dif.obj: src/dif.cpp.obj
-.PHONY : src/dif.obj
-
-# target to build an object file
-src/dif.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/dif.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/dif.cpp.obj
-.PHONY : src/dif.cpp.obj
-
-src/dif.i: src/dif.cpp.i
-.PHONY : src/dif.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-src/dif.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/dif.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/dif.cpp.i
-.PHONY : src/dif.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-src/dif.s: src/dif.cpp.s
-.PHONY : src/dif.s
-
-# target to generate assembly for a file
-src/dif.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/dif.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/dif.cpp.s
-.PHONY : src/dif.cpp.s
-
-src/div.obj: src/div.cpp.obj
-.PHONY : src/div.obj
-
-# target to build an object file
-src/div.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/div.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/div.cpp.obj
-.PHONY : src/div.cpp.obj
-
-src/div.i: src/div.cpp.i
-.PHONY : src/div.i
-
-# target to preprocess a source file
-src/div.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/div.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/div.cpp.i
-.PHONY : src/div.cpp.i
-
-src/div.s: src/div.cpp.s
-.PHONY : src/div.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-src/div.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/div.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/div.cpp.s
-.PHONY : src/div.cpp.s
-
-src/mul.obj: src/mul.cpp.obj
-.PHONY : src/mul.obj
-
-# target to build an object file
-src/mul.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/mul.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/mul.cpp.obj
-.PHONY : src/mul.cpp.obj
-
-src/mul.i: src/mul.cpp.i
-.PHONY : src/mul.i
-
-# target to preprocess a source file
-src/mul.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/mul.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/mul.cpp.i
-.PHONY : src/mul.cpp.i
-
-src/mul.s: src/mul.cpp.s
-.PHONY : src/mul.s
-
-# target to generate assembly for a file
-src/mul.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_shared.dir\build.make CMakeFiles/calc_shared.dir/src/mul.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_static.dir\build.make CMakeFiles/calc_static.dir/src/mul.cpp.s
-.PHONY : src/mul.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -257,20 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... calc_shared
-	@echo ... calc_static
-	@echo ... src/add.obj
-	@echo ... src/add.i
-	@echo ... src/add.s
-	@echo ... src/dif.obj
-	@echo ... src/dif.i
-	@echo ... src/dif.s
-	@echo ... src/div.obj
-	@echo ... src/div.i
-	@echo ... src/div.s
-	@echo ... src/mul.obj
-	@echo ... src/mul.i
-	@echo ... src/mul.s
+	@echo ... app
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
