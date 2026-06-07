@@ -21,4 +21,8 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 # set(CMAKE_CXX_STANDARD 98)
 # add_executable(app ${SRC})
 add_library(calc SHARED ${SRC})
-set_target_properties(calc PROPERTIEs RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output/SharedLib)
+set_target_properties(calc PROPERTIES 
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Shared/lib
+    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Shared/lib
+    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/output_Shared/lib
+)
