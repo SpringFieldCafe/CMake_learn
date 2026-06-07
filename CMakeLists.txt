@@ -15,6 +15,8 @@ project(
 
 set(SRC add.cpp dif.cpp mul.cpp div.cpp main.cpp)
 set(EXECUTABLE_OUTPUT_PATH ../output_use_set/t12/t2/)
+message(STATUS "合影")
+# message(FATAL_ERROR "哈哈命名")
 set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_CXX_STANDARD 98)
 add_executable(app ${SRC})
