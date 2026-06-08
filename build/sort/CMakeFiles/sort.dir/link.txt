@@ -1,0 +1,2 @@
+C:\Strawberry\c\bin\ar.exe qc C:\Users\25747\Desktop\cmake_learn\lib\libsort.a CMakeFiles/sort.dir/insert.cpp.obj CMakeFiles/sort.dir/select.cpp.obj
+C:\Strawberry\c\bin\ranlib.exe C:\Users\25747\Desktop\cmake_learn\lib\libsort.a

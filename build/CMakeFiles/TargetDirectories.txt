@@ -1,0 +1,14 @@
+C:/Users/25747/Desktop/cmake_learn/build/CMakeFiles/edit_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/CMakeFiles/rebuild_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/calc/CMakeFiles/calc.dir
+C:/Users/25747/Desktop/cmake_learn/build/calc/CMakeFiles/edit_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/calc/CMakeFiles/rebuild_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/sort/CMakeFiles/sort.dir
+C:/Users/25747/Desktop/cmake_learn/build/sort/CMakeFiles/edit_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/sort/CMakeFiles/rebuild_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/test1/CMakeFiles/app1.dir
+C:/Users/25747/Desktop/cmake_learn/build/test1/CMakeFiles/edit_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/test1/CMakeFiles/rebuild_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/test2/CMakeFiles/app2.dir
+C:/Users/25747/Desktop/cmake_learn/build/test2/CMakeFiles/edit_cache.dir
+C:/Users/25747/Desktop/cmake_learn/build/test2/CMakeFiles/rebuild_cache.dir

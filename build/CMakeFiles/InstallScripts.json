@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/25747/Desktop/cmake_learn/build/cmake_install.cmake",
+		"C:/Users/25747/Desktop/cmake_learn/build/calc/cmake_install.cmake",
+		"C:/Users/25747/Desktop/cmake_learn/build/sort/cmake_install.cmake",
+		"C:/Users/25747/Desktop/cmake_learn/build/test1/cmake_install.cmake",
+		"C:/Users/25747/Desktop/cmake_learn/build/test2/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

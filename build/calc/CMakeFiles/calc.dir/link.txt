@@ -1,0 +1,2 @@
+C:\Strawberry\c\bin\ar.exe qc C:\Users\25747\Desktop\cmake_learn\lib\libcalc.a CMakeFiles/calc.dir/add.cpp.obj CMakeFiles/calc.dir/dif.cpp.obj CMakeFiles/calc.dir/div.cpp.obj CMakeFiles/calc.dir/mul.cpp.obj
+C:\Strawberry\c\bin\ranlib.exe C:\Users\25747\Desktop\cmake_learn\lib\libcalc.a
