@@ -7,7 +7,7 @@ int main(){
         printf("A DEBUG MACRO\n");
 #endif 
     int i=NUMBER;
-    for(i;i>2;i/2){
+    for(i;i>0;i/=2){
         printf("GCC\n");
     }    
 }
