@@ -86,21 +86,21 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles C:\Users\25747\Desktop\cmake_learn\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles C:\Users\25747\Desktop\cmake_learn\build\test\\CMakeFiles\progress.marks
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles C:\Users\25747\Desktop\cmake_learn\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles C:\Users\25747\Desktop\cmake_learn\build\test\\CMakeFiles\progress.marks
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/codegen
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\25747\Desktop\cmake_learn\build\CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -109,57 +109,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named calc
+# Convenience name for target.
+test/CMakeFiles/app2.dir/rule:
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/app2.dir/rule
+.PHONY : test/CMakeFiles/app2.dir/rule
 
-# Build rule for target.
-calc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calc
-.PHONY : calc
-
-# fast build rule for target.
-calc/fast:
-	$(MAKE) $(MAKESILENT) -f calc\CMakeFiles\calc.dir\build.make calc/CMakeFiles/calc.dir/build
-.PHONY : calc/fast
-
-#=============================================================================
-# Target rules for targets named sort
-
-# Build rule for target.
-sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sort
-.PHONY : sort
-
-# fast build rule for target.
-sort/fast:
-	$(MAKE) $(MAKESILENT) -f sort\CMakeFiles\sort.dir\build.make sort/CMakeFiles/sort.dir/build
-.PHONY : sort/fast
-
-#=============================================================================
-# Target rules for targets named app2
-
-# Build rule for target.
-app2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app2
+# Convenience name for target.
+app2: test/CMakeFiles/app2.dir/rule
 .PHONY : app2
 
 # fast build rule for target.
 app2/fast:
-	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\app2.dir\build.make test/CMakeFiles/app2.dir/build
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\app2.dir\build.make test/CMakeFiles/app2.dir/build
 .PHONY : app2/fast
+
+sort.obj: sort.cpp.obj
+.PHONY : sort.obj
+
+# target to build an object file
+sort.cpp.obj:
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\app2.dir\build.make test/CMakeFiles/app2.dir/sort.cpp.obj
+.PHONY : sort.cpp.obj
+
+sort.i: sort.cpp.i
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.cpp.i:
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\app2.dir\build.make test/CMakeFiles/app2.dir/sort.cpp.i
+.PHONY : sort.cpp.i
+
+sort.s: sort.cpp.s
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.cpp.s:
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\app2.dir\build.make test/CMakeFiles/app2.dir/sort.cpp.s
+.PHONY : sort.cpp.s
 
 # Help Target
 help:
@@ -171,8 +170,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... app2
-	@echo ... calc
-	@echo ... sort
+	@echo ... sort.obj
+	@echo ... sort.i
+	@echo ... sort.s
 .PHONY : help
 
 
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\25747\Desktop\cmake_learn\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

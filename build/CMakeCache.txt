@@ -273,13 +273,13 @@ sort_IS_TOP_LEVEL:STATIC=OFF
 sort_SOURCE_DIR:STATIC=C:/Users/25747/Desktop/cmake_learn/sort
 
 //Value Computed by CMake
-test1_BINARY_DIR:STATIC=C:/Users/25747/Desktop/cmake_learn/build/test2
+test1_BINARY_DIR:STATIC=C:/Users/25747/Desktop/cmake_learn/build/test
 
 //Value Computed by CMake
 test1_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-test1_SOURCE_DIR:STATIC=C:/Users/25747/Desktop/cmake_learn/test2
+test1_SOURCE_DIR:STATIC=C:/Users/25747/Desktop/cmake_learn/test
 
 //Value Computed by CMake
 test2_BINARY_DIR:STATIC=C:/Users/25747/Desktop/cmake_learn/build/test1
@@ -399,7 +399,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
