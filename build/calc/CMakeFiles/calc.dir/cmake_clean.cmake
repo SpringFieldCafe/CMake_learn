@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/25747/Desktop/cmake_learn/lib/libcalc.a"
+  "C:/Users/25747/Desktop/cmake_learn/lib/libcalc.dll"
+  "C:/Users/25747/Desktop/cmake_learn/lib/libcalc.dll.a"
+  "C:/Users/25747/Desktop/cmake_learn/lib/libcalc.dll.manifest"
   "C:/Users/25747/Desktop/cmake_learn/lib/libcalc.pdb"
   "CMakeFiles/calc.dir/add.cpp.obj"
   "CMakeFiles/calc.dir/add.cpp.obj.d"

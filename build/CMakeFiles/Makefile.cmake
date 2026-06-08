@@ -45,8 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.3.2/CMakeSystem.cmake"
   "C:/Users/25747/Desktop/cmake_learn/calc/CMakeLists.txt"
   "C:/Users/25747/Desktop/cmake_learn/sort/CMakeLists.txt"
-  "C:/Users/25747/Desktop/cmake_learn/test1/CMakeLists.txt"
-  "C:/Users/25747/Desktop/cmake_learn/test2/CMakeLists.txt"
+  "C:/Users/25747/Desktop/cmake_learn/test/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -60,14 +59,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "calc/CMakeFiles/CMakeDirectoryInformation.cmake"
   "sort/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test1/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "calc/CMakeFiles/calc.dir/DependInfo.cmake"
   "sort/CMakeFiles/sort.dir/DependInfo.cmake"
-  "test1/CMakeFiles/app1.dir/DependInfo.cmake"
-  "test2/CMakeFiles/app2.dir/DependInfo.cmake"
+  "test/CMakeFiles/app.dir/DependInfo.cmake"
   )
